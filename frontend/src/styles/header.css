@@ -1,0 +1,82 @@
+/* Header.css */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #392d47, #573b76);
+  color: white;
+  padding: 10px 20px;
+  z-index: 1000;
+  height: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.app-logo {
+  width: auto;
+  max-height: auto;
+  object-fit: cover;
+
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.btn1, .btn2, .logoutBtn {
+  background-color: #634778;
+  color: #ffffff;
+  margin-top: 0;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn1:hover, .btn2:hover, .logoutBtn:hover {
+  background-color: #8c60ae;
+  color: #ffcc00;
+}
+
+.btn1 {
+  margin-right: 10px;
+}
+
+.auth-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

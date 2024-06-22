@@ -1,0 +1,141 @@
+
+.body3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #ffffff;
+  }
+  
+  .container3 {
+    width: 100%;
+    
+    background-color: #b9a5c8bb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .accounttext {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .accountform .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .accountform .inputregister,
+  .accountform input[type='password'],
+  .accountform input[type='file'],
+  .accountform input[type='text'] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .accountform input[type='file'] {
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .accountform .profile-label {
+    flex-basis: 30%;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .accountform input[type='submit'],
+  .accountform button {
+    width: 40%;
+    background-color: #634778;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .accountform input[type='submit']:hover,
+  .accountform button:hover {
+    background-color: #8c60ae;
+    color: #ffcc00;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .edit-label {
+    text-decoration: none; 
+  }
+  
+  .edit-label:hover {
+    color: #634778;
+    text-decoration: underline;
+  }
+
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    object-fit: cover;
+    margin-right: 0px;
+  }
+  
+@media (max-width: 768px) {
+    .container3 {
+      width: 90%;
+    }
+  
+    .accountform .form-group {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .accountform .profile-label {
+      text-align: left;
+      margin-right: 0;
+      margin-bottom: 5px;
+    }
+  
+    .accountform .form-group span {
+      width: 100%;
+    }
+  
+    .edit-btn {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+}
+
+.pwinput{
+    max-width: 96%;
+}
+
+.submit-btn{
+  background-color: #634778;
+  color: white;
+}
+
+
+.submit-btn:hover{
+  background-color: #8c60ae;
+  color: #ffcc00;
+}

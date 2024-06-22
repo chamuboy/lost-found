@@ -1,0 +1,70 @@
+
+.right-pane {
+  margin-top: 8px;
+  width: 280px;
+  height: 100vh;
+  background-color: #ffffff;
+  border-left: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+.right-pane h2 {
+  margin-top: 0;
+}
+
+.right-pane p {
+  margin: 10px 0;
+  margin-top: 35px;
+  color: #5a13ac;
+}
+
+.right-pane select {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.right-pane button {
+  display: block;
+  width: 100%;
+  margin-top: 25px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.right-pane input[type="date"] {
+  display: block;
+  width: 94%;
+  margin-top: 5px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.right-pane label {
+  display: block;
+  margin-top: 10px;
+}
+
+.right-pane button {
+  background-color: #634778;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.right-pane button:hover {
+  background-color: #8c60ae;
+  color: #ffcc00;
+}

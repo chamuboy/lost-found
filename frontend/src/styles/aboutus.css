@@ -1,0 +1,41 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/2.jpg');
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+
+  }
+  
+  .about-content {
+    max-width: 800px;
+    text-align: center;
+    background: rgba(60, 58, 61, 0.482);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .about-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-content h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
