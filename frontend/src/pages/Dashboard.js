@@ -80,7 +80,7 @@ const Dashboard = () => {
             {filteredItems.map(item => (
               <li key={item._id} className="item" onClick={() => handleItemClick(item._id)}>
                 <div className="item-image">
-                  {item.image && <img src={`http://localhost:5000/${item.image}`} alt={item.title} />}
+                  {item.image && <img src={`https://lost-found-agv1.onrender.com/${item.image}`} alt={item.title} />}
                 </div>
                 <div className="item-details">
                   <h4>{item.title}</h4>

@@ -54,7 +54,7 @@ const ItemDetails = () => {
       <p className="item-location1"><strong>Location:</strong> {location}</p>
       <p className="item-contactno1"><strong>Contact: </strong>{contactNumber}</p>
       <p className="item-date-found1"><strong>Date Found:</strong> {new Date(dateFound).toLocaleDateString()}</p>
-      {image && <img className="item-image1" src={`http://localhost:5000/${image}`} alt={title} />}
+      {image && <img className="item-image1" src={`https://lost-found-agv1.onrender.com/${image}`} alt={title} />}
       {isAvailableForBidding && (
         <div className="bid-section">
           <button className="bid-button" onClick={() => setShowBidForm(!showBidForm)}>
@@ -83,7 +83,7 @@ const ItemDetails = () => {
             <p className="uploader-mobile1"><strong>Contact:</strong> {user.mobile}</p>
           </div>
           <div className='uploader-image'>
-            <img className="uploader-profile-picture1" src={`http://localhost:5000/${user.profilePicture}`} alt={`${user.fname} ${user.lname}`} />
+            <img className="uploader-profile-picture1" src={`https://lost-found-agv1.onrender.com/${user.profilePicture}`} alt={`${user.fname} ${user.lname}`} />
           </div>          
         </div>
       ) : (
